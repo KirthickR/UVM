@@ -25,6 +25,9 @@ module test;
 
     it1.randomize();
     it1.print();
+    
+    it1.randomize();
+    it1.print();
     it2.print();
 
     it2.copy(it1);
@@ -32,9 +35,7 @@ module test;
 
     it3.copy(it1);
     it3.print();
-  end
-endmodule
-
+ 
     it1.randomize();
     it1.print();
     it2.print();
@@ -81,6 +82,35 @@ endmodule
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // ----------------------------
 // Name   Type      Size  Value
 // ----------------------------
@@ -88,6 +118,14 @@ endmodule
 //   A    integral  4     'h4  
 //   B    integral  4     'hd  
 //   Cin  integral  4     'h5  
+// ----------------------------
+// ----------------------------
+// Name   Type      Size  Value
+// ----------------------------
+// it1    seq_item  -     @1799
+//   A    integral  4     'h3  
+//   B    integral  4     'h3  
+//   Cin  integral  4     'h6  
 // ----------------------------
 // ----------------------------
 // Name   Type      Size  Value
@@ -101,15 +139,47 @@ endmodule
 // Name   Type      Size  Value
 // ----------------------------
 // it2    seq_item  -     @1809
-//   A    integral  4     'h4  
-//   B    integral  4     'hd  
-//   Cin  integral  4     'h5  
+//   A    integral  4     'h3  
+//   B    integral  4     'h3  
+//   Cin  integral  4     'h6  
 // ----------------------------
 // ----------------------------
 // Name   Type      Size  Value
 // ----------------------------
 // it3    seq_item  -     @1811
-//   A    integral  4     'h4  
+//   A    integral  4     'h3  
+//   B    integral  4     'h3  
+//   Cin  integral  4     'h6  
+// ----------------------------
+// ----------------------------
+// Name   Type      Size  Value
+// ----------------------------
+// it1    seq_item  -     @1799
+//   A    integral  4     'h1  
 //   B    integral  4     'hd  
-//   Cin  integral  4     'h5  
+//   Cin  integral  4     'h9  
+// ----------------------------
+// ----------------------------
+// Name   Type      Size  Value
+// ----------------------------
+// it2    seq_item  -     @1809
+//   A    integral  4     'h3  
+//   B    integral  4     'h3  
+//   Cin  integral  4     'h6  
+// ----------------------------
+// ----------------------------
+// Name   Type      Size  Value
+// ----------------------------
+// it2    seq_item  -     @1809
+//   A    integral  4     'h1  
+//   B    integral  4     'hd  
+//   Cin  integral  4     'h9  
+// ----------------------------
+// ----------------------------
+// Name   Type      Size  Value
+// ----------------------------
+// it3    seq_item  -     @1811
+//   A    integral  4     'h1  
+//   B    integral  4     'hd  
+//   Cin  integral  4     'h9  
 // ----------------------------
